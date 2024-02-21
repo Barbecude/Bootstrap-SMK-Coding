@@ -1,0 +1,74 @@
+*{
+    font-family: "Poppins";
+}
+.logo{
+    width: 125px;
+}.partikel{
+    z-index: 3;
+    width: 200px;
+    position: absolute;
+   
+}
+.slogan {
+    padding-top: 15%;
+}
+.home {
+    height: 700px;
+    padding: 50px;
+    background-color: #f6ebda;
+    z-index: 5;
+}
+.more-menu{
+    color: rgb(0, 0, 0);
+}
+.rating {
+    font-weight: 800;
+    position: absolute;
+    top: 100px;
+    bottom: 205px; /* Atur posisi vertikal sesuai kebutuhan */
+    right: 20px; /* Atur posisi horizontal sesuai kebutuhan */
+    background-color: rgb(255, 255, 255); /* Atur opacity dan warna latar belakang */
+    padding: 7px 40px 10px 15px;
+ /* Atur padding */
+    border: solid rgba(192,192,192,0.3) 5px;
+    border-radius: 50px;
+  }
+  .rating > img {
+    width: 17px;
+    position: absolute;
+    left: 50px;
+    top: 9px;
+  }
+.card > img{
+    border-radius: 20px;
+}
+.rating-2{
+    height: 35px;
+    width: 80px;
+    position: absolute;
+    background-color: bisque;
+    border-radius: 50px;
+padding: 10px;
+left: 30px;
+   bottom: 140px;
+    margin-right: 100px;
+}
+.rating-2>p{
+   font-weight: 600;
+    position: absolute;
+    top: 6px;
+}
+.rating-2>p>img{
+    position: absolute;
+    
+}
+.harga {
+    padding-left: 150;
+}
+.card >img{
+    padding: 25px;
+    width: 100%;
+}
+.card {
+    border-width: 5px;
+}
